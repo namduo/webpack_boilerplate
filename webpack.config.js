@@ -20,7 +20,8 @@ module.exports = {
 	},
 	devServer: {
     contentBase: './dist',
-		watchContentBase: true
+		watchContentBase: true,
+		stats: "errors-only"
   },
 	plugins: [
 		new ExtractTextPlugin('main.css')
